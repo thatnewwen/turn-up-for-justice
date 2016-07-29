@@ -1,0 +1,53 @@
+body{
+	background-color: #353535;
+
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.main-text{
+	word-wrap: break-word;
+	font-size: 5vw;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+.imwithher{
+	color: #6464f1;
+}
+
+.makeamericagreatagain{
+	color: #ff4b3e;
+}
+
+.alllivesmatter{
+	color: palegoldenrod;
+}
+
+
+.title-area {
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 5;
+  text-align: center;
+  color: #f9f9f9;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3vw;
+}
+
+@media only screen and (max-device-width: 500px) {
+  .title-area{
+  	font-size: 1.3em;
+  }
+}
+
+.byline{
+	color: #6f6f6f;
+}
