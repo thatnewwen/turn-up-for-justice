@@ -11,7 +11,7 @@ body{
 
 .main-text{
 	word-wrap: break-word;
-	font-size: 5vw;
+	font-size: 4.5vw;
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
   color: white;
@@ -29,17 +29,21 @@ body{
 	color: palegoldenrod;
 }
 
+.notallmen{
+	color: #ffeb3b;
+}
+
 
 .title-area {
   margin: auto;
   position: absolute;
   left: 0;
   right: 0;
-  top: 5;
+  top: 15px;
   text-align: center;
   color: #f9f9f9;
   font-family: 'Montserrat', sans-serif;
-  font-size: 3vw;
+  font-size: 30px;
 }
 
 @media only screen and (max-device-width: 500px) {
